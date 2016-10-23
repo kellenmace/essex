@@ -1,0 +1,29 @@
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+.entry-hero-wrapper, .hentry-wrapper, .site-content-wrapper, .site-footer-wrapper, .site-header-wrapper, .site-content-wrapper .has-post-thumbnail .entry-header-wrapper, .widget-area-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+	max-width: 56.25rem;
+	width: 90%;
+	width: calc(100% - 3em);
+}
+
+.content-area, .site-content-wrapper {
+	width: 100%;
+}
+
+.content-area, .site-header-wrapper {
+	max-width: 100%;
+}
+
+.site-content-wrapper {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	position: relative;
+}

@@ -1,0 +1,163 @@
+/*--------------------------------------------------------------
+# Buttons
+--------------------------------------------------------------*/
+.button {
+	background: #3e69dc;
+	border: 0;
+	border-radius: 5em;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-weight: bold;
+	letter-spacing: 0.0625em;
+	line-height: 1.3847;
+	padding: 0.69231em 1.5em;
+	text-align: center;
+	text-shadow: none;
+	text-transform: uppercase;
+	color: #fff;
+	&:focus, &:hover {
+		color: #fff;
+	}
+	&:focus, &:hover {
+		background: #2c313f;
+	}
+	&.minimal {
+		background: transparent;
+		color: #3e69dc;
+		position: relative;
+		&:before {
+			border: 2px solid;
+			border-radius: 5em;
+			content: "";
+			display: block;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+		&:focus, &:hover {
+			background: #3e69dc;
+			box-shadow: none;
+			color: #fff;
+		}
+		&:focus:before, &:hover:before {
+			display: none;
+		}
+	}
+}
+
+/* Featured Content, Panel Page Template & Widget Footer Top Area */
+
+.featured-content .hentry.has-post-thumbnail .button, .page-template-panel-page .hentry.has-post-thumbnail .button {
+	background: #3e69dc;
+	color: #fff;
+}
+
+.widget-footer-top-area .button {
+	background: #fff;
+	color: #3e69dc;
+}
+
+.featured-content .hentry.has-post-thumbnail .button {
+	&:focus, &:hover {
+		background: #fff;
+		color: #3e69dc;
+	}
+}
+
+.page-template-panel-page .hentry.has-post-thumbnail .button {
+	&:focus, &:hover {
+		background: #fff;
+		color: #3e69dc;
+	}
+}
+
+.widget-footer-top-area .button {
+	&:focus, &:hover {
+		background: rgba(255, 255, 255, 0.25);
+		color: #fff;
+	}
+}
+
+.featured-content .hentry.has-post-thumbnail .button.minimal, .page-template-panel-page .hentry.has-post-thumbnail .button.minimal, .widget-footer-top-area .button.minimal {
+	background: transparent;
+	color: #fff;
+}
+
+.featured-content .hentry.has-post-thumbnail .button.minimal, .page-template-panel-page .hentry.has-post-thumbnail .button.minimal {
+	text-shadow: 0 0 0.15em rgba(0, 0, 0, 0.5);
+}
+
+.featured-content .hentry.has-post-thumbnail .button.minimal {
+	&:focus, &:hover {
+		background: #3e69dc;
+		color: #fff;
+		text-shadow: none;
+	}
+}
+
+.page-template-panel-page .hentry.has-post-thumbnail .button.minimal {
+	&:focus, &:hover {
+		background: #3e69dc;
+		color: #fff;
+		text-shadow: none;
+	}
+}
+
+.widget-footer-top-area .button.minimal {
+	&:focus, &:hover {
+		background: #fff;
+		color: #3e69dc;
+	}
+}
+
+/* Main Menu */
+
+.main-navigation {
+	.button {
+		border: 0;
+		display: block;
+		margin-bottom: 0.75em;
+		margin-top: 0.75em;
+		padding: 0;
+		position: relative;
+		&:before {
+			background: #f3f3f3;
+			content: "";
+			display: block;
+			height: 1px;
+			-webkit-transform: translateY(-0.75em);
+			-moz-transform: translateY(-0.75em);
+			-ms-transform: translateY(-0.75em);
+			transform: translateY(-0.75em);
+			width: 100%;
+		}
+		a {
+			border-radius: 5em;
+			padding: 0.69231em 1.5em;
+		}
+	}
+	.primary-menu > .button a {
+		border: 0;
+	}
+	.button {
+		a {
+			color: #fff;
+			&:focus, &:hover {
+				color: #fff;
+			}
+		}
+		&.minimal a {
+			&:focus, &:hover {
+				color: #fff;
+			}
+			&:focus {
+				background: #3e69dc;
+			}
+			color: #3e69dc;
+		}
+	}
+}

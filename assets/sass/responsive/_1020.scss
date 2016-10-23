@@ -1,0 +1,69 @@
+/*--------------------------------------------------------------
+## x >= 1020px
+--------------------------------------------------------------*/
+@media screen and (min-width: 1020px) {
+	/* Layout */
+	.single .content-area {
+		margin-bottom: 3em;
+	}
+	.archive .content-area, .blog .content-area, .search .content-area {
+		padding-bottom: 4.5em;
+	}
+	.site-content-wrapper .widget-area {
+		padding-bottom: 3.75em;
+		padding-top: 6em;
+	}
+	/* Navigation */
+	.posts-navigation {
+		margin-top: 4.5em;
+	}
+	/* Content */
+	.hentry {
+		padding-bottom: 4.5em;
+		padding-top: 6em;
+	}
+	.archive .content-area .hentry, .blog .content-area .hentry, .search .content-area .hentry {
+		padding-top: 4.5em;
+	}
+	.page-content {
+		padding-top: 6em;
+		padding-bottom: 4.5em;
+	}
+	.page-header {
+		margin-bottom: -4.5em;
+		padding-top: 6em;
+	}
+	.entry-hero-wrapper {
+		padding-bottom: 6em;
+		padding-top: 6em;
+	}
+	.entry-author {
+		margin-top: 4.5em;
+	}
+	.comments-area {
+		padding-bottom: 3em;
+	}
+	/* Jetpack */
+	#infinite-handle {
+		padding-top: 4.5em;
+	}
+	.site-main .infinite-loader {
+		height: 8.25em;
+	}
+	.infinite-loader .spinner {
+		-webkit-transform: translateY(1.5em);
+		-moz-transform: translateY(1.5em);
+		-ms-transform: translateY(1.5em);
+		transform: translateY(1.5em);
+	}
+	.archive .content-area .jetpack-testimonial, .search .content-area .jetpack-testimonial {
+		padding-top: 1.5em;
+	}
+	.post-type-archive-jetpack-testimonial .posts-navigation {
+		margin-top: 6em;
+	}
+	.single-jetpack-testimonial .hentry-wrapper {
+		padding-bottom: 1.5em;
+		padding-top: 6em;
+	}
+}

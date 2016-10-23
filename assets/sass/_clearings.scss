@@ -1,0 +1,86 @@
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+.clear {
+	&:before, &:after {
+		content: "";
+		display: table;
+		table-layout: fixed;
+	}
+}
+
+.entry-author {
+	&:before, &:after {
+		content: "";
+		display: table;
+		table-layout: fixed;
+	}
+}
+
+.entry-content {
+	&:before, &:after {
+		content: "";
+		display: table;
+		table-layout: fixed;
+	}
+}
+
+.comment-content {
+	&:before, &:after {
+		content: "";
+		display: table;
+		table-layout: fixed;
+	}
+}
+
+.page-content {
+	&:before, &:after {
+		content: "";
+		display: table;
+		table-layout: fixed;
+	}
+}
+
+.page-links {
+	&:before, &:after {
+		content: "";
+		display: table;
+		table-layout: fixed;
+	}
+}
+
+.site-header {
+	&:before, &:after {
+		content: "";
+		display: table;
+		table-layout: fixed;
+	}
+}
+
+.site-content {
+	&:before, &:after {
+		content: "";
+		display: table;
+		table-layout: fixed;
+	}
+}
+
+.site-footer {
+	&:before, &:after {
+		content: "";
+		display: table;
+		table-layout: fixed;
+	}
+}
+
+.widget-area-wrapper {
+	&:before, &:after {
+		content: "";
+		display: table;
+		table-layout: fixed;
+	}
+}
+
+.clear:after, .entry-author:after, .entry-content:after, .comment-content:after, .page-content:after, .page-links:after, .site-header:after, .site-content:after, .site-footer:after, .widget-area-wrapper:after {
+	clear: both;
+}

@@ -1,0 +1,128 @@
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a {
+	color: #2c313f;
+	text-decoration: none;
+	&:visited {
+		font-weight: normal;
+	}
+	&:focus, &:hover {
+		color: #3e69dc;
+		outline: 0;
+	}
+}
+
+.comment-content a, .comment-reply-title small a, .entry-content a {
+	box-shadow: 0 1px 0 0;
+}
+
+.entry-footer a {
+	&:focus, &:hover {
+		box-shadow: 0 1px 0 0;
+	}
+}
+
+.entry-summary a, .logged-in-as a, .pingback .comment-body > a {
+	box-shadow: 0 1px 0 0;
+}
+
+.site-info a {
+	&:focus, &:hover {
+		box-shadow: 0 1px 0 0;
+	}
+}
+
+.taxonomy-description a {
+	box-shadow: 0 1px 0 0;
+}
+
+.comment-content a {
+	&:focus, &:hover, &[href$=".png"], &.button {
+		box-shadow: none;
+	}
+}
+
+.comment-reply-title small a {
+	&:focus, &:hover {
+		box-shadow: none;
+	}
+}
+
+.entry-content a {
+	&:focus, &:hover, &[href$=".png"], &.button {
+		box-shadow: none;
+	}
+}
+
+.entry-summary a {
+	&:focus, &:hover, &[href$=".png"], &.button {
+		box-shadow: none;
+	}
+}
+
+.logged-in-as a {
+	&:focus, &:hover {
+		box-shadow: none;
+	}
+}
+
+.pingback .comment-body > a {
+	&:focus, &:hover {
+		box-shadow: none;
+	}
+}
+
+.site .testimonial-featured-image, .site-content .wp-audio-shortcode a {
+	box-shadow: none;
+}
+
+.taxonomy-description a {
+	&:focus, &:hover {
+		box-shadow: none;
+	}
+}
+
+.featured-content .hentry.has-post-thumbnail a, .page-template-panel-page .hentry.has-post-thumbnail a, .widget-footer-top-area a {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.comment-metadata a, .entry-footer a, .entry-header a {
+	color: inherit;
+}
+
+.featured-content .hentry.has-post-thumbnail a {
+	&:focus, &:hover {
+		color: inherit;
+	}
+}
+
+.page-template-panel-page .hentry.has-post-thumbnail a {
+	&:focus, &:hover {
+		color: inherit;
+	}
+}
+
+.widget-footer-top-area a {
+	&:focus, &:hover {
+		color: inherit;
+	}
+}
+
+.comment-metadata a {
+	&:focus, &:hover {
+		color: #3e69dc;
+	}
+}
+
+.entry-footer a {
+	&:focus, &:hover {
+		color: #3e69dc;
+	}
+}
+
+.entry-header a {
+	&:focus, &:hover {
+		color: #3e69dc;
+	}
+}

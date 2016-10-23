@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+.site-footer {
+	border-top: 1px solid #f3f3f3;
+	padding: 1.5em 0;
+}
+
+.site-info a {
+	color: #7a7c84;
+	&:focus, &:hover {
+		color: #3e69dc;
+	}
+}
+
+.sep {
+	color: #f3f3f3;
+	padding: 0 0.5em;
+}

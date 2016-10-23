@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.site {
+	.slideshow-window {
+		border-radius: 0;
+		margin-bottom: 1.5em;
+	}
+	.slideshow-controls a, .tiled-gallery-item > a {
+		box-shadow: none;
+	}
+	.tiled-gallery {
+		margin-bottom: 1.5em;
+	}
+	.tiled-gallery-caption {
+		background: #fff;
+		color: #7a7c84;
+		font-size: 13px;
+		font-size: 0.8125rem;
+		font-style: italic;
+		line-height: 1.3847;
+		padding: 0.1875rem 0;
+		text-indent: 3px;
+	}
+}
+
+.instagram-media {
+	margin: 0 0 1.5em !important;
+	width: 100% !important;
+}

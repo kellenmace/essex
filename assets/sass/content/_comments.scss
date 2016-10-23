@@ -1,0 +1,143 @@
+.comments-area {
+	border-top: 1px solid #f3f3f3;
+	padding-top: 1.5em;
+}
+
+.comments-wrapper {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+/* Comment List */
+
+.comment-list {
+	list-style: none;
+	margin: 0;
+	.children {
+		list-style: none;
+	}
+	> li {
+		border-bottom: 1px solid #f3f3f3;
+		margin-bottom: 1.5em;
+		&:last-child {
+			border-bottom: 0;
+			margin-bottom: 0;
+		}
+	}
+}
+
+.pingback .comment-body, .trackback .comment-body {
+	padding-bottom: 1.5em;
+}
+
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+.comment-meta {
+	margin-bottom: 1.5em;
+}
+
+.comment-author {
+	.avatar {
+		border-radius: 50%;
+		float: left;
+		height: 3em;
+		margin-right: 0.375em;
+		vertical-align: middle;
+		width: 3em;
+	}
+	.fn {
+		font-weight: normal;
+	}
+}
+
+.comment-metadata {
+	font-size: 13px;
+	font-size: 0.8125rem;
+	line-height: 1.3847;
+	padding: 0.1875rem 0;
+	.edit-link:before {
+		color: #f3f3f3;
+		content: "\002f";
+		display: inline-block;
+		padding-left: 0.25em;
+		padding-right: 0.5em;
+	}
+}
+
+.reply {
+	margin-bottom: 1.5em;
+}
+
+.comment-reply-link {
+	font-weight: bold;
+	&:after {
+		color: #3e69dc;
+		content: "\f432";
+		display: inline-block;
+		font-family: Genericons;
+		font-size: 16px;
+		font-size: 1rem;
+		line-height: 1;
+		margin-left: 0.25em;
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		transform: rotate(90deg);
+		vertical-align: middle;
+	}
+}
+
+/* Comment Respond */
+
+.comment-respond {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+.comment .comment-respond {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.comments-wrapper + .comment-respond, .comment-navigation + .comment-respond {
+	border-top: 1px solid #f3f3f3;
+	padding-top: 1.5em;
+}
+
+.comment-form {
+	margin-bottom: 1.5em;
+	iframe {
+		margin-bottom: 0;
+	}
+}
+
+.comment-subscription-form + .comment-subscription-form {
+	margin-top: -1.5em;
+}
+
+.comment-reply-title small {
+	display: block;
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 1.5;
+}
+
+/* No Comments */
+
+.no-comments {
+	color: #2c313f;
+	font-family: Poppins, sans-serif;
+	font-size: 32px;
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 1.125;
+	margin-bottom: 1.5rem;
+}

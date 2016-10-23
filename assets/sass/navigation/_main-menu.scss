@@ -1,0 +1,121 @@
+/*--------------------------------------------------------------
+## Main Menu
+--------------------------------------------------------------*/
+.site-menu {
+	display: none;
+	-webkit-flex: 0 1 100%;
+	-ms-flex: 0 1 100%;
+	flex: 0 1 100%;
+	&.toggled-on {
+		display: block;
+	}
+}
+
+.main-navigation {
+	margin-top: 1.5em;
+	.primary-menu {
+		border-bottom: 1px solid;
+	}
+	ul {
+		color: #f3f3f3;
+		display: none;
+		list-style: none;
+		margin: 0;
+	}
+	&.toggled-on ul {
+		display: block;
+		&.toggled-on {
+			display: block;
+		}
+		ul {
+			display: none;
+		}
+	}
+	.menu-item-has-children > a {
+		margin-right: 3.5em;
+		position: relative;
+		&:after {
+			color: #3e69dc;
+			content: "\f431";
+			display: none;
+			font-family: Genericons;
+			line-height: 1;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			-webkit-transform: translateY(-50%);
+			-moz-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			transform: translateY(-50%);
+		}
+	}
+	ul ul .menu-item-has-children > a:after {
+		right: 0.75em;
+		-webkit-transform: translateY(-50%) rotate(-90deg);
+		-moz-transform: translateY(-50%) rotate(-90deg);
+		-ms-transform: translateY(-50%) rotate(-90deg);
+		transform: translateY(-50%) rotate(-90deg);
+	}
+	li {
+		border-top: 1px solid;
+		position: relative;
+	}
+	a {
+		color: #2c313f;
+		display: block;
+		font-weight: bold;
+		padding: 0.75em 0;
+		&:focus, &:hover {
+			color: #3e69dc;
+		}
+	}
+	ul ul {
+		background: #fff;
+		margin-left: 1.5em;
+	}
+	.primary-menu {
+		.current_page_item > a, .current-menu-item > a, .current_page_ancestor > a {
+			border-color: #3e69dc;
+		}
+	}
+}
+
+/* Menu Toggle */
+
+.menu-toggle {
+	margin-top: 1.5em;
+}
+
+/* Dropdown Toggle */
+
+.dropdown-toggle {
+	border: 0.25em solid;
+	border-radius: 50%;
+	font-size: 16px;
+	font-size: 1rem;
+	height: 2.5em;
+	line-height: 1;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	text-transform: none;
+	top: 0.25em;
+	width: 2.5em;
+	&:before {
+		content: "\f431";
+		font-family: Genericons;
+		height: 1em;
+		left: 50%;
+		line-height: 1;
+		position: absolute;
+		top: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		width: 1em;
+	}
+	&.toggled-on:before {
+		content: "\f432";
+	}
+}

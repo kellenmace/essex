@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+## Recipes
+--------------------------------------------------------------*/
+.site-content {
+	.jetpack-recipe {
+		margin: 0 0 1.5em;
+		padding: 1.5em 1.5em 0;
+		blockquote {
+			margin-left: 0;
+		}
+		ol, ul {
+			list-style-position: inside;
+		}
+	}
+	.jetpack-recipe-title {
+		padding: 0;
+		margin: 0 auto 1.5rem;
+		border-bottom: 0;
+	}
+	.jetpack-recipe-content br {
+		display: none;
+	}
+	.jetpack-recipe .jetpack-recipe-meta {
+		font-size: inherit;
+		line-height: inherit;
+		overflow: inherit;
+	}
+	.jetpack-recipe-meta {
+		&:before {
+			content: "";
+			display: table;
+		}
+		&:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+	}
+}

@@ -1,0 +1,16 @@
+/*--------------------------------------------------------------
+## Back to Top
+--------------------------------------------------------------*/
+.back-top {
+	background: #2c313f;
+	border-radius: 0;
+	display: none;
+	opacity: 0.75;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+	&:focus, &:hover {
+		opacity: 1;
+	}
+}

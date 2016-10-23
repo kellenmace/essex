@@ -1,0 +1,31 @@
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: auto;
+	&:not(.large-element) {
+		max-width: 100%;
+	}
+	img[class*="wp-image-"] {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.wp-caption-text {
+		border-bottom: 1px solid #f3f3f3;
+		margin: 0;
+	}
+}
+
+.widget-footer-top-area .wp-caption .wp-caption-text {
+	border-bottom-color: rgba(255, 255, 255, 0.75);
+}
+
+.wp-caption-text {
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-style: italic;
+	line-height: 1.3847;
+	padding: 0.1875rem 0;
+}

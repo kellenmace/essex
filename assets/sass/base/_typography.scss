@@ -1,0 +1,181 @@
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body, button, input, select, textarea {
+	color: #7a7c84;
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+.widget-footer-top-area {
+	color: #fff;
+	button, input, select, textarea {
+		color: #fff;
+	}
+}
+
+.entry-footer, .entry-meta, .site-info {
+	font-size: 13px;
+	font-size: 0.8125rem;
+	line-height: 1.3847;
+}
+
+h1, h2, h3, h4, h5, h6, .site-title {
+	clear: both;
+	color: #2c313f;
+	font-family: Poppins, sans-serif;
+	font-weight: bold;
+	margin: 0 0 1.5rem;
+}
+
+.featured-content .hentry.has-post-thumbnail {
+	h1, h2, h3, h4, h5, h6 {
+		color: inherit;
+	}
+}
+
+.page-template-panel-page .hentry.has-post-thumbnail {
+	h1, h2, h3, h4, h5, h6 {
+		color: inherit;
+	}
+}
+
+.widget-footer-top-area {
+	h1, h2, h3, h4, h5, h6 {
+		color: inherit;
+	}
+}
+
+.site-title {
+	margin-bottom: 0;
+}
+
+h1, .entry-title, .post-type-archive-jetpack-testimonial .page-title {
+	font-size: 40px;
+	font-size: 2.5rem;
+	line-height: 1.2;
+}
+
+h2, .comment-reply-title, .comments-title {
+	font-size: 32px;
+	font-size: 2rem;
+	line-height: 1.125;
+}
+
+h3, .page-title, .widgettitle, .widget-title {
+	font-size: 25px;
+	font-size: 1.5625rem;
+	line-height: 1.2;
+}
+
+h4, .site-title {
+	font-size: 20px;
+	font-size: 1.25rem;
+	line-height: 1.5;
+}
+
+h5 {
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+h6 {
+	font-size: 13px;
+	font-size: 0.8125rem;
+	line-height: 1.3847;
+}
+
+dfn, cite, em, i {
+	font-style: italic;
+}
+
+address, p, pre {
+	margin: 0 0 1.5em;
+}
+
+blockquote {
+	border: 0 solid #3e69dc;
+	border-left-width: 2px;
+	font-size: 20px;
+	font-size: 1.25rem;
+	font-style: italic;
+	line-height: 1.5;
+	margin: 0 0 1.5rem;
+	padding-left: 1.5rem;
+	* {
+		margin-bottom: 1.5rem;
+	}
+	cite {
+		color: #2c313f;
+		display: block;
+	}
+}
+
+code, kbd, tt, var {
+	background: #f3f3f3;
+	font-family: Inconsolata, monospace;
+	padding: 0 0.25em;
+}
+
+.featured-content .hentry.has-post-thumbnail {
+	code, kbd, tt, var {
+		background: rgba(0, 0, 0, 0.25);
+	}
+}
+
+.page-template-panel-page .hentry.has-post-thumbnail {
+	code, kbd, tt, var {
+		background: rgba(0, 0, 0, 0.25);
+	}
+}
+
+.widget-footer-top-area {
+	code, kbd, tt, var {
+		background: rgba(255, 255, 255, 0.25);
+	}
+}
+
+pre {
+	border: 1px solid #f3f3f3;
+	font-family: Inconsolata, monospace;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.5em;
+	position: relative;
+}
+
+.featured-content .hentry.has-post-thumbnail pre, .page-template-panel-page .hentry.has-post-thumbnail pre {
+	border-color: rgba(0, 0, 0, 0.25);
+}
+
+.widget-footer-top-area pre {
+	border-color: rgba(255, 255, 255, 0.25);
+}
+
+abbr {
+	border-bottom: 1px dotted;
+	cursor: help;
+	&[title] {
+		border-bottom: 1px dotted;
+		cursor: help;
+	}
+}
+
+acronym {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+mark, ins {
+	background: #3e69dc;
+	color: #fff;
+	padding: 0 0.25em;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}

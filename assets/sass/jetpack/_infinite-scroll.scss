@@ -1,0 +1,156 @@
+/*--------------------------------------------------------------
+## Infinite Scroll
+--------------------------------------------------------------*/
+/* Infinite Footer */
+
+.infinite-scroll {
+	.posts-navigation, &.neverending .site-footer {
+		display: none;
+	}
+}
+
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+#infinite-footer {
+	background: #3e69dc;
+	opacity: 0.75;
+	z-index: 9999;
+	&:hover {
+		opacity: 1;
+	}
+	.container {
+		background: transparent;
+		border: 0;
+		font-size: 13px;
+		font-size: 0.8125rem;
+		line-height: 1.3847;
+		padding: 0.692308em 3.692308em;
+	}
+	.blog-info {
+		line-height: inherit;
+		overflow: visible;
+	}
+	.blog-credits {
+		line-height: inherit;
+		overflow: visible;
+		color: #fff;
+		display: inline-block;
+		font-size: inherit;
+		font-weight: normal;
+		text-decoration: none;
+		a {
+			color: #fff;
+			display: inline-block;
+			font-size: inherit;
+			font-weight: normal;
+			text-decoration: none;
+		}
+	}
+	.blog-info a {
+		color: #fff;
+		display: inline-block;
+		font-size: inherit;
+		font-weight: normal;
+		text-decoration: none;
+		&:hover {
+			box-shadow: 0 1px 0 0;
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+	.blog-credits a:hover {
+		box-shadow: 0 1px 0 0;
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+/* Infinite Handle */
+
+#infinite-handle {
+	border-top: 1px solid #f3f3f3;
+	padding: 1.5em;
+}
+
+.site-main {
+	#infinite-handle span {
+		background: transparent;
+		border-radius: 0;
+		color: inherit;
+		font-size: inherit;
+		padding: 0;
+		button {
+			background: #3e69dc;
+			border: 0;
+			border-radius: 5em;
+			color: #fff;
+			display: block;
+			font-size: 13px;
+			font-size: 0.8125rem;
+			font-weight: bold;
+			line-height: 1.3847;
+			padding: 0.69231em 1.5em;
+			text-align: center;
+			text-transform: uppercase;
+			width: 100%;
+			&:focus, &:hover {
+				background: #3e69dc;
+				border: 0;
+				border-radius: 5em;
+				color: #fff;
+				display: block;
+				font-size: 13px;
+				font-size: 0.8125rem;
+				font-weight: bold;
+				line-height: 1.3847;
+				padding: 0.69231em 1.5em;
+				text-align: center;
+				text-transform: uppercase;
+				width: 100%;
+			}
+			&:focus, &:hover {
+				background: #2c313f;
+				color: #fff;
+			}
+		}
+	}
+	.infinite-loader {
+		border-top: 1px solid #f3f3f3;
+		box-sizing: content-box;
+		height: 5.25em;
+	}
+}
+
+/* Infinite Loader */
+
+.infinite-loader .spinner {
+	left: 50% !important;
+	top: 50% !important;
+	z-index: 9998 !important;
+	div {
+		background: currentcolor !important;
+		color: #3e69dc;
+	}
+}
+
+/* Infinite Wrap */
+
+.infinite-wrap {
+	border-top: 1px solid #f3f3f3;
+	padding-top: 1.5em;
+	.hentry {
+		margin-top: -1.5em;
+	}
+}
+
+.post-type-archive-jetpack-testimonial .infinite-wrap {
+	border: none;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 0;
+	.hentry {
+		margin-top: 0;
+	}
+}

@@ -1,0 +1,64 @@
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+.site-header {
+	background: #fff;
+	border-bottom: 1px solid #f3f3f3;
+	padding-bottom: 1.5em;
+	width: 100%;
+}
+
+.site-header-wrapper {
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	position: relative;
+	z-index: 1;
+}
+
+.site-branding {
+	margin-left: 0;
+	margin-right: auto;
+	margin-top: 1.5em;
+	padding-right: 1.5em;
+}
+
+.site-title a {
+	color: #3e69dc;
+	&:focus, &:hover {
+		color: #2c313f;
+	}
+}
+
+.wp-custom-logo .site-title {
+	margin-top: 0.5rem;
+}
+
+.site-description {
+	display: none;
+}
+
+.custom-logo-link {
+	display: block;
+}
+
+.custom-logo {
+	max-width: 180px;
+}
+
+.header-image {
+	border-bottom: 1px solid #f3f3f3;
+	text-align: center;
+	a {
+		display: inline-block;
+		&:focus {
+			opacity: 0.5;
+		}
+	}
+}

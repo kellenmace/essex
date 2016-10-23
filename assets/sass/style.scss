@@ -1,0 +1,26 @@
+/*
+ * Theme Name:  Essex
+ * Theme URI:   https://github.com/kellenmace/essex/
+ * Description: A flexible and multi-purpose business theme. Based on the Shoreditch theme by Automattic.
+ * Version:     1.0
+ * Author:      Kellen Mace
+ * Author URI:  http://kellenmace.com/
+ * License:     GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: shoreditch
+ * Tags:        blue, white, light, two-columns, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, full-width-template, rtl-language-support, sticky-post, theme-options, translation-ready
+*/
+
+@import "base/index";
+@import "forms";
+@import "layout/index";
+@import "navigation/index";
+@import "accessibility";
+@import "alignments";
+@import "clearings";
+@import "widgets";
+@import "content/index";
+@import "media/index";
+@import "jetpack/index";
+@import "extra-classes/index";
+@import "responsive/index";

@@ -1,0 +1,126 @@
+/*--------------------------------------------------------------
+## Pagination
+--------------------------------------------------------------*/
+.comment-navigation, .post-navigation, .posts-navigation {
+	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.comment-navigation, .posts-navigation {
+	border: 1px solid #f3f3f3;
+	border-width: 1px 0 0;
+}
+
+.post-navigation {
+	border-bottom: 0 solid #f3f3f3;
+	max-width: 900px;
+	max-width: 56.25rem;
+}
+
+.comment-navigation:before, .posts-navigation:before {
+	background: #f3f3f3;
+	content: "";
+	display: block;
+	height: 100%;
+	left: 50%;
+	position: absolute;
+	width: 1px;
+}
+
+.comment-navigation a, .posts-navigation a {
+	border: 0;
+	display: block;
+	font-weight: bold;
+	padding: 1.5em;
+}
+
+.post-navigation a {
+	border: 1px solid #f3f3f3;
+	border-width: 1px 0 0;
+	display: block;
+	padding: 1.5em;
+}
+
+.comment-navigation a {
+	&:focus, &:hover {
+		background-color: #f3f3f3;
+	}
+}
+
+.post-navigation a {
+	&:focus, &:hover {
+		background-color: #f3f3f3;
+	}
+}
+
+.posts-navigation a {
+	&:focus, &:hover {
+		background-color: #f3f3f3;
+	}
+}
+
+.post-navigation {
+	.nav-next, .nav-previous {
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+	.meta-nav {
+		color: #7a7c84;
+		display: block;
+		font-size: 13px;
+		font-size: 0.8125rem;
+		line-height: 1.3847;
+		padding: 0.1875rem 0;
+		text-transform: uppercase;
+	}
+	.post-title {
+		font-family: Poppins, sans-serif;
+		font-size: 25px;
+		font-size: 1.5625rem;
+		font-weight: bold;
+		line-height: 1.2;
+	}
+	a {
+		&:focus .post-title, &:hover .post-title {
+			color: #3e69dc;
+		}
+	}
+}
+
+.comment-navigation .nav-previous, .posts-navigation .nav-previous {
+	float: left;
+	position: relative;
+	width: 50%;
+}
+
+.comment-navigation .nav-next, .posts-navigation .nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+.comment-navigation .nav-previous a:before, .posts-navigation .nav-previous a:before, .comment-navigation .nav-next a:after, .posts-navigation .nav-next a:after {
+	color: #3e69dc;
+	content: "\f431";
+	display: inline-block;
+	font-family: Genericons;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1;
+	margin-right: 0.25em;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	vertical-align: text-bottom;
+}
+
+.comment-navigation .nav-next a:after, .posts-navigation .nav-next a:after {
+	content: "\f432";
+	margin-left: 0.25em;
+	margin-right: 0;
+}

@@ -1,0 +1,66 @@
+/*--------------------------------------------------------------
+## Playlists
+--------------------------------------------------------------*/
+.site {
+	.wp-playlist {
+		background: transparent !important;
+		border-color: #f3f3f3;
+		color: inherit;
+		margin: 0 0 1.5em;
+		padding: 0.75em;
+		font-size: inherit;
+		line-height: inherit;
+	}
+	.wp-playlist-caption, .wp-playlist-item-title, .wp-playlist-item-length {
+		font-size: inherit;
+		line-height: inherit;
+	}
+}
+
+.widget-footer-top-area .wp-playlist {
+	border-color: rgba(255, 255, 255, 0.25);
+}
+
+.site {
+	.wp-playlist a {
+		box-shadow: none;
+	}
+	.wp-playlist-current-item {
+		margin-bottom: 0.75em;
+	}
+	.wp-playlist-tracks {
+		margin-top: 0.75em;
+	}
+	.wp-playlist-light .wp-playlist-playing {
+		background: transparent;
+		color: inherit;
+	}
+	.wp-playlist-item {
+		border-bottom-color: #f3f3f3;
+		color: inherit;
+	}
+}
+
+.widget-footer-top-area .wp-playlist-item {
+	border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.site .wp-playlist-light .wp-playlist-caption {
+	color: #2c313f;
+}
+
+.widget-footer-top-area .wp-playlist-light .wp-playlist-caption {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.site .wp-playlist-light a.wp-playlist-caption {
+	&:focus, &:hover {
+		color: #3e69dc;
+	}
+}
+
+.widget-footer-top-area .wp-playlist-light a.wp-playlist-caption {
+	&:focus, &:hover {
+		color: #fff;
+	}
+}

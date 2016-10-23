@@ -1,0 +1,103 @@
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widget {
+	margin: 0;
+}
+
+.widget-title:empty {
+	display: none;
+}
+
+/* Calendar */
+
+.widget_calendar {
+	td, th {
+		line-height: 2.35;
+		padding: 0;
+		text-align: center;
+	}
+	caption {
+		font-weight: bold;
+		margin-bottom: 1.5em;
+	}
+	tbody a {
+		background-color: #f3f3f3;
+		display: block;
+		&:hover, &:focus {
+			background-color: transparent;
+		}
+	}
+}
+
+/* Lists */
+
+.widget_archive ul, .widget_categories ul, .widget_links ul, .widget_meta ul, .widget_nav_menu ul, .widget_pages ul, .widget_recent_comments ul, .widget_recent_entries ul, .widget_rss ul {
+	border-bottom: 1px solid #f3f3f3;
+	list-style: none;
+	margin-left: 0;
+}
+
+.widget-footer-top-area {
+	.widget_archive ul, .widget_categories ul, .widget_links ul, .widget_meta ul, .widget_nav_menu ul, .widget_pages ul, .widget_recent_comments ul, .widget_recent_entries ul, .widget_rss ul {
+		border-bottom-color: rgba(255, 255, 255, 0.25);
+	}
+}
+
+.widget_archive li, .widget_categories li, .widget_links li, .widget_meta li, .widget_nav_menu li, .widget_pages li, .widget_recent_comments li, .widget_recent_entries li, .widget_rss li {
+	border-top: 1px solid #f3f3f3;
+	padding: 0.75em 0;
+}
+
+.widget-footer-top-area {
+	.widget_archive li, .widget_categories li, .widget_links li, .widget_meta li, .widget_nav_menu li, .widget_pages li, .widget_recent_comments li, .widget_recent_entries li, .widget_rss li {
+		border-top-color: rgba(255, 255, 255, 0.25);
+	}
+}
+
+.widget_categories .children, .widget_nav_menu .sub-menu, .widget_pages .children {
+	border-bottom: 0;
+	margin-bottom: -0.75em;
+	margin-top: 0.75em;
+	padding-left: 1.5em;
+}
+
+.widget_recent_entries .post-date {
+	display: block;
+}
+
+/* RSS */
+
+.widget_rss {
+	.widget-title img {
+		display: none;
+	}
+	cite, .rssSummary, .rss-date {
+		display: block;
+	}
+}
+
+/* Select */
+
+.widget_archive select, .widget_categories select {
+	margin-bottom: 1.5em;
+}
+
+/* Tag Cloud */
+
+.widget_tag_cloud .tagcloud {
+	padding-bottom: 1.25em;
+	display: flex;
+	flex-wrap: wrap;
+	a {
+		background: #f3f3f3;
+		display: block;
+		margin-bottom: 0.25em;
+		margin-right: 0.25em;
+		padding: 0.25em 0.5em;
+	}
+}
+
+.widget-footer-top-area .widget_tag_cloud .tagcloud a {
+	background: rgba(255, 255, 255, 0.25);
+}

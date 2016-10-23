@@ -1,0 +1,208 @@
+/*--------------------------------------------------------------
+## Sharedaddy
+--------------------------------------------------------------*/
+.hentry #jp-post-flair {
+	padding: 0;
+}
+
+div#jp-relatedposts, .sd-like.jetpack-likes-widget-wrapper, .sd-rating, .sd-sharing-enabled:not(#jp-post-flair) {
+	margin: 0 0 1.5rem;
+}
+
+div#jp-relatedposts, .sd-like.jetpack-likes-widget-wrapper, .sd-sharing-enabled:not(#jp-post-flair) {
+	border-bottom: 1px solid #f3f3f3;
+	padding-bottom: 1.5rem;
+}
+
+.page-template-panel-page .hentry.has-post-thumbnail {
+	div#jp-relatedposts, .sd-like.jetpack-likes-widget-wrapper, .sd-sharing-enabled:not(#jp-post-flair) {
+		border-bottom-color: rgba(255, 255, 255, 0.25);
+	}
+	.sd-rating + .sd-sharing-enabled:not(#jp-post-flair) {
+		border-top-color: rgba(255, 255, 255, 0.25);
+	}
+}
+
+.sd-like.jetpack-likes-widget-wrapper iframe {
+	margin-bottom: 0;
+}
+
+.hentry {
+	div {
+		&.sd-rating h3.sd-title, &.sharedaddy h3.sd-title, &#jp-relatedposts h3.jp-relatedposts-headline {
+			color: currentcolor;
+			font-family: inherit;
+			font-size: inherit;
+			font-weight: normal;
+			line-height: inherit;
+			margin: 0;
+		}
+	}
+	.pd-rating + br {
+		display: none;
+	}
+	div {
+		&.sharedaddy h3.sd-title:before, &#jp-relatedposts h3.jp-relatedposts-headline em:before {
+			display: none;
+		}
+		&.sharedaddy {
+			h3.sd-title {
+				font-size: 13px;
+				font-size: 0.8125rem;
+				line-height: 1.3847;
+				padding: 0.1875rem 0;
+				text-transform: uppercase;
+			}
+			.sd-content {
+				ul, .inner ul {
+					margin-bottom: 0 !important;
+				}
+			}
+		}
+	}
+	.sd-sharing .share-count {
+		line-height: 1 !important;
+	}
+}
+
+/* Related Posts */
+
+div#jp-relatedposts {
+	clear: both;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	line-height: 1.3847;
+	padding: 0 0 1.5rem;
+	position: relative;
+	width: 100%;
+}
+
+.hentry div#jp-relatedposts h3.jp-relatedposts-headline {
+	text-transform: uppercase;
+}
+
+div#jp-relatedposts {
+	.jp-relatedposts-post-context, .jp-relatedposts-post-date, .jp-relatedposts-post-title {
+		padding: 0.1875rem 0;
+	}
+	.jp-relatedposts-post-excerpt {
+		border: solid transparent;
+		border-width: 0.1875rem 0;
+		box-sizing: content-box;
+		&:empty {
+			display: none;
+		}
+	}
+	.jp-relatedposts-post-aoverlay {
+		box-shadow: none;
+		&:focus {
+			outline: 1px solid;
+		}
+	}
+	a:focus {
+		background: transparent;
+	}
+}
+
+.hentry {
+	div#jp-relatedposts {
+		h3.jp-relatedposts-headline em {
+			font-weight: inherit;
+		}
+		div.jp-relatedposts-items {
+			width: 100%;
+			p {
+				font-size: inherit;
+				line-height: inherit;
+			}
+			.jp-relatedposts-post, .jp-relatedposts-post-context {
+				opacity: 1;
+			}
+		}
+	}
+	#jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post {
+		.jp-relatedposts-post-context, .jp-relatedposts-post-date {
+			opacity: 1;
+		}
+	}
+	div#jp-relatedposts div {
+		&.jp-relatedposts-items {
+			.jp-relatedposts-post {
+				padding: 0;
+				margin-bottom: 1.5em;
+				width: 100%;
+			}
+			&.jp-relatedposts-items-minimal .jp-relatedposts-post {
+				margin: 0;
+				padding: 0;
+				width: 100%;
+			}
+			.jp-relatedposts-post:last-of-type, &.jp-relatedposts-items-minimal .jp-relatedposts-post:last-of-type {
+				margin-bottom: 0;
+			}
+			.jp-relatedposts-post-context:empty {
+				display: none;
+			}
+			.jp-relatedposts-post-title {
+				font-size: inherit;
+				font-weight: inherit;
+				letter-spacing: 0;
+				line-height: inherit;
+				a {
+					box-shadow: none;
+					font-weight: inherit;
+					text-decoration: none !important;
+					&:focus, &:hover {
+						box-shadow: 0 1px 0 0;
+					}
+				}
+			}
+		}
+		&.jp-relatedposts-post-thumbs .jp-relatedposts-post-title {
+			padding-top: 0.375rem;
+		}
+		&.jp-relatedposts-items span.jp-relatedposts-post-title {
+			font-size: inherit;
+			line-height: inherit;
+		}
+	}
+}
+
+/* Ratings */
+
+.comment .pd-rating, .hentry .pd-rating {
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1 !important;
+	margin-bottom: 1.5rem;
+	padding: 0.25em 0;
+}
+
+.sd-rating + .sd-sharing-enabled:not(#jp-post-flair) {
+	border-top: 1px solid #f3f3f3;
+	padding-top: 1.5rem;
+}
+
+.hentry .post-likes-widget {
+	margin-bottom: 1.5em;
+	position: inherit !important;
+	top: auto !important;
+}
+
+.comments-area {
+	.comment-likes {
+		height: 1.5em;
+		.comment-like-link {
+			box-shadow: none;
+			line-height: 1.5;
+		}
+	}
+	.comment-like-link:before, .comment-likes-overlay span.icon {
+		line-height: 1.2;
+	}
+	.comment-likes .comment-like-feedback {
+		font-size: 16px;
+		font-size: 1rem;
+		line-height: 1.5;
+	}
+}

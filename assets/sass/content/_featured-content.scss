@@ -1,0 +1,105 @@
+.featured-content {
+	border-bottom: 1px solid #f3f3f3;
+	opacity: 0;
+	position: relative;
+	.hentry {
+		-webkit-backface-visibility: hidden;
+		border-bottom: 0;
+		margin: 0;
+		&.has-post-thumbnail {
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			border-bottom: 0;
+			color: #fff;
+			position: relative;
+			text-shadow: 0 0 0.15em rgba(0, 0, 0, 0.5);
+		}
+	}
+	.has-post-thumbnail .entry-header {
+		color: inherit;
+	}
+	.hentry.has-post-thumbnail {
+		&:before {
+			background: rgba(0, 0, 0, 0.2);
+			content: "";
+			display: block;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+		.hentry-wrapper {
+			position: relative;
+		}
+	}
+	.has-post-thumbnail {
+		.entry-header a {
+			&:focus, &:hover {
+				color: rgba(255, 255, 255, 0.75);
+			}
+		}
+		.entry-footer {
+			color: rgba(255, 255, 255, 0.75);
+			a {
+				color: rgba(255, 255, 255, 0.75);
+			}
+		}
+		.entry-header {
+			color: #fff;
+			a {
+				color: #fff;
+			}
+		}
+		.entry-footer a {
+			&:focus, &:hover {
+				color: #fff;
+			}
+		}
+	}
+	.hentry.has-post-thumbnail .entry-footer > span:not(:last-child):after {
+		color: rgba(255, 255, 255, 0.25);
+	}
+	.flex-control-paging {
+		border-top: 1px solid #f3f3f3;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		list-style: none;
+		margin: 0 auto;
+		padding: 1.5em;
+		position: relative;
+		&:empty {
+			display: none;
+		}
+		li {
+			display: block;
+			height: 0.75em;
+			margin: 0 0.125em;
+			width: 0.75em;
+		}
+		a {
+			background: transparent;
+			border: 2px solid #3e69dc;
+			border-radius: 50%;
+			color: transparent;
+			display: block;
+			height: inherit;
+			line-height: 1;
+			position: relative;
+			text-align: center;
+			width: inherit;
+			&:hover {
+				background: #3e69dc;
+			}
+		}
+		.flex-active {
+			background: #3e69dc;
+		}
+	}
+}
+
+/* Pagination */
