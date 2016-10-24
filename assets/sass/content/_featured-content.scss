@@ -83,7 +83,7 @@
 		}
 		a {
 			background: transparent;
-			border: 2px solid #3e69dc;
+			border: 2px solid $color-primary;
 			border-radius: 50%;
 			color: transparent;
 			display: block;
@@ -93,11 +93,11 @@
 			text-align: center;
 			width: inherit;
 			&:hover {
-				background: #3e69dc;
+				background: $color-primary;
 			}
 		}
 		.flex-active {
-			background: #3e69dc;
+			background: $color-primary;
 		}
 	}
 }

@@ -8,7 +8,7 @@ a {
 		font-weight: normal;
 	}
 	&:focus, &:hover {
-		color: #3e69dc;
+		color: $color-primary;
 		outline: 0;
 	}
 }
@@ -111,18 +111,18 @@ a {
 
 .comment-metadata a {
 	&:focus, &:hover {
-		color: #3e69dc;
+		color: $color-primary;
 	}
 }
 
 .entry-footer a {
 	&:focus, &:hover {
-		color: #3e69dc;
+		color: $color-primary;
 	}
 }
 
 .entry-header a {
 	&:focus, &:hover {
-		color: #3e69dc;
+		color: $color-primary;
 	}
 }

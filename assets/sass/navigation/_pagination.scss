@@ -86,7 +86,7 @@
 	}
 	a {
 		&:focus .post-title, &:hover .post-title {
-			color: #3e69dc;
+			color: $color-primary;
 		}
 	}
 }
@@ -104,7 +104,7 @@
 }
 
 .comment-navigation .nav-previous a:before, .posts-navigation .nav-previous a:before, .comment-navigation .nav-next a:after, .posts-navigation .nav-next a:after {
-	color: #3e69dc;
+	color: $color-primary;
 	content: "\f431";
 	display: inline-block;
 	font-family: Genericons;

@@ -14,7 +14,7 @@
 }
 
 #infinite-footer {
-	background: #3e69dc;
+	background: $color-primary;
 	opacity: 0.75;
 	z-index: 9999;
 	&:hover {
@@ -82,7 +82,7 @@
 		font-size: inherit;
 		padding: 0;
 		button {
-			background: #3e69dc;
+			background: $color-primary;
 			border: 0;
 			border-radius: 5em;
 			color: #fff;
@@ -96,7 +96,7 @@
 			text-transform: uppercase;
 			width: 100%;
 			&:focus, &:hover {
-				background: #3e69dc;
+				background: $color-primary;
 				border: 0;
 				border-radius: 5em;
 				color: #fff;
@@ -131,7 +131,7 @@
 	z-index: 9998 !important;
 	div {
 		background: currentcolor !important;
-		color: #3e69dc;
+		color: $color-primary;
 	}
 }
 

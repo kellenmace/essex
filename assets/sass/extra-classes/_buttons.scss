@@ -2,7 +2,7 @@
 # Buttons
 --------------------------------------------------------------*/
 .button {
-	background: #3e69dc;
+	background: $color-primary;
 	border: 0;
 	border-radius: 5em;
 	cursor: pointer;
@@ -25,7 +25,7 @@
 	}
 	&.minimal {
 		background: transparent;
-		color: #3e69dc;
+		color: $color-primary;
 		position: relative;
 		&:before {
 			border: 2px solid;
@@ -39,7 +39,7 @@
 			width: 100%;
 		}
 		&:focus, &:hover {
-			background: #3e69dc;
+			background: $color-primary;
 			box-shadow: none;
 			color: #fff;
 		}
@@ -52,26 +52,26 @@
 /* Featured Content, Panel Page Template & Widget Footer Top Area */
 
 .featured-content .hentry.has-post-thumbnail .button, .page-template-panel-page .hentry.has-post-thumbnail .button {
-	background: #3e69dc;
+	background: $color-primary;
 	color: #fff;
 }
 
 .widget-footer-top-area .button {
 	background: #fff;
-	color: #3e69dc;
+	color: $color-primary;
 }
 
 .featured-content .hentry.has-post-thumbnail .button {
 	&:focus, &:hover {
 		background: #fff;
-		color: #3e69dc;
+		color: $color-primary;
 	}
 }
 
 .page-template-panel-page .hentry.has-post-thumbnail .button {
 	&:focus, &:hover {
 		background: #fff;
-		color: #3e69dc;
+		color: $color-primary;
 	}
 }
 
@@ -93,7 +93,7 @@
 
 .featured-content .hentry.has-post-thumbnail .button.minimal {
 	&:focus, &:hover {
-		background: #3e69dc;
+		background: $color-primary;
 		color: #fff;
 		text-shadow: none;
 	}
@@ -101,7 +101,7 @@
 
 .page-template-panel-page .hentry.has-post-thumbnail .button.minimal {
 	&:focus, &:hover {
-		background: #3e69dc;
+		background: $color-primary;
 		color: #fff;
 		text-shadow: none;
 	}
@@ -110,7 +110,7 @@
 .widget-footer-top-area .button.minimal {
 	&:focus, &:hover {
 		background: #fff;
-		color: #3e69dc;
+		color: $color-primary;
 	}
 }
 
@@ -155,9 +155,9 @@
 				color: #fff;
 			}
 			&:focus {
-				background: #3e69dc;
+				background: $color-primary;
 			}
-			color: #3e69dc;
+			color: $color-primary;
 		}
 	}
 }

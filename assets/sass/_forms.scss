@@ -2,7 +2,7 @@
 # Forms
 --------------------------------------------------------------*/
 button {
-	background: #3e69dc;
+	background: $color-primary;
 	border: 0;
 	border-radius: 5em;
 	color: #fff;
@@ -18,7 +18,7 @@ button {
 
 input {
 	&[type="button"], &[type="reset"], &[type="submit"] {
-		background: #3e69dc;
+		background: $color-primary;
 		border: 0;
 		border-radius: 5em;
 		color: #fff;
@@ -60,12 +60,12 @@ input {
 .widget-footer-top-area {
 	button {
 		background: #fff;
-		color: #3e69dc;
+		color: $color-primary;
 	}
 	input {
 		&[type="button"], &[type="reset"], &[type="submit"] {
 			background: #fff;
-			color: #3e69dc;
+			color: $color-primary;
 		}
 	}
 	button:focus {
@@ -130,13 +130,13 @@ select, textarea {
 input {
 	&[type="text"]:focus, &[type="email"]:focus, &[type="url"]:focus, &[type="password"]:focus, &[type="search"]:focus, &[type="number"]:focus, &[type="tel"]:focus, &[type="range"]:focus, &[type="date"]:focus, &[type="month"]:focus, &[type="week"]:focus, &[type="time"]:focus, &[type="datetime"]:focus, &[type="datetime-local"]:focus, &[type="color"]:focus {
 		background: transparent;
-		outline: 2px solid #3e69dc;
+		outline: 2px solid $color-primary;
 	}
 }
 
 select:focus, textarea:focus {
 	background: transparent;
-	outline: 2px solid #3e69dc;
+	outline: 2px solid $color-primary;
 }
 
 .widget-footer-top-area {
@@ -227,7 +227,7 @@ label {
 			background: transparent;
 		}
 		&:before {
-			background: #3e69dc;
+			background: $color-primary;
 			border-radius: 50%;
 			content: "\f400";
 			display: block;

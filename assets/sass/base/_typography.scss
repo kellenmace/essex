@@ -97,7 +97,7 @@ address, p, pre {
 }
 
 blockquote {
-	border: 0 solid #3e69dc;
+	border: 0 solid $color-primary;
 	border-left-width: 2px;
 	font-size: 20px;
 	font-size: 1.25rem;
@@ -170,7 +170,7 @@ acronym {
 }
 
 mark, ins {
-	background: #3e69dc;
+	background: $color-primary;
 	color: #fff;
 	padding: 0 0.25em;
 	text-decoration: none;

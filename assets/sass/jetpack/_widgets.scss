@@ -22,7 +22,7 @@
 		width: auto;
 		&:focus, &:hover {
 			background: transparent;
-			color: #3e69dc;
+			color: $color-primary;
 		}
 	}
 	.count {
@@ -112,12 +112,12 @@
 .widget_goodreads div {
 	&[class^="gr_custom_title"] a {
 		&:focus, &:hover {
-			color: #3e69dc;
+			color: $color-primary;
 		}
 	}
 	&[class^=gr_custom_container] a {
 		&:focus, &:hover {
-			color: #3e69dc;
+			color: $color-primary;
 		}
 	}
 }
@@ -322,7 +322,7 @@
 	}
 	&:hover, &:focus {
 		background: #f3f3f3;
-		color: #3e69dc;
+		color: $color-primary;
 	}
 }
 

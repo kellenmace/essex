@@ -77,7 +77,7 @@
 .comment-reply-link {
 	font-weight: bold;
 	&:after {
-		color: #3e69dc;
+		color: $color-primary;
 		content: "\f432";
 		display: inline-block;
 		font-family: Genericons;

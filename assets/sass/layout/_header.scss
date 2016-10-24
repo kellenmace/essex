@@ -30,7 +30,7 @@
 }
 
 .site-title a {
-	color: #3e69dc;
+	color: $color-primary;
 	&:focus, &:hover {
 		color: #2c313f;
 	}
